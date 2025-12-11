@@ -18,7 +18,7 @@ if (!isset($_COOKIE['authToken'])) {
     <title>Accueil</title>
 </head>
 <body>
-    <h1>Bienvenue sur la page Administrateur protégée par un Cookie</h1>
+    <h1>Bienvenue sur la page Administrateur. Le Cookie ne dureras qu' 1 minutes</h1>
     <p>Vous êtes connecté en tant qu'<strong>admin</strong>.</p>
     <a href="logout.php">Se déconnecter</a>
 </body>
